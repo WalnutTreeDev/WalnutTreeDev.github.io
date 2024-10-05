@@ -210,13 +210,8 @@ html .section {
 }
 
 .section__background__portrait {
-    width: 65px;
-    height: 100px;
+    width: 100px;
     margin-top: 20px;    
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
 }
 
 @media screen and (max-width:768px) {
