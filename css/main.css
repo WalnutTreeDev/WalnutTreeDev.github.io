@@ -740,7 +740,7 @@ html #top-button img {
     position: relative;
 }
 
-.intro__wrap .intro__icon {
+.intro__wrap .circle-wrapper {
     float: right;
 }
     
@@ -749,7 +749,7 @@ html #top-button img {
 }
 
 @media screen and (max-width:550px) {
-    .intro__wrap .intro__icon {
+    .intro__wrap .circle-wrapper {
         float: none;
         display: none;
     }
@@ -1391,4 +1391,19 @@ html #top-button img {
     opacity: 1;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px)
+}
+
+.circle-wrapper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+
+    .intro__icon {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
 }
