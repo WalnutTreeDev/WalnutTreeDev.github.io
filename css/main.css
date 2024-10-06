@@ -462,6 +462,6 @@ html #top-button img {
 
 @media screen and (max-width:1024px) {
     .circle-wrapper {
-        display: hidden;
+        display: none;
     }
 }
