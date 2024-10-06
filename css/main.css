@@ -464,4 +464,7 @@ html #top-button img {
     .circle-wrapper {
         display: none;
     }
+    body .section, html .section {
+        padding: 100px 0px;
+    }
 }
