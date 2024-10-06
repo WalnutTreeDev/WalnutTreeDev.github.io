@@ -459,3 +459,9 @@ html #top-button img {
         width: auto;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .circle-wrapper {
+        display: hidden;
+    }
+}
