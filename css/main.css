@@ -181,43 +181,10 @@ html .section {
     padding: 100px 170px
 }
 
-@media screen and (max-width:1280px) {
-    body .section,
-    html .section {
-        padding: 100px
-    }
-}
-
-@media screen and (max-width:1024px) {
-    body .section,
-    html .section {
-        padding: 50px
-    }
-}
-
-@media screen and (max-width:768px) {
-    body .section,
-    html .section {
-        display: block
-    }
-}
-
-@media screen and (max-width:480px) {
-    body .section,
-    html .section {
-        padding: 50px 35px
-    }
-}
 
 .section__background__portrait {
     width: 100px;
     margin-top: 20px;    
-}
-
-@media screen and (max-width:768px) {
-    .section__background__portrait {
-        display:none;
-    }
 }
 
 body .section__title,
@@ -233,27 +200,6 @@ html .section__title {
     letter-spacing: 2px
 }
 
-@media screen and (max-width:1024px) {
-    body .section__title,
-    html .section__title {
-        margin-right: 50px
-    }
-}
-
-@media screen and (max-width:850px) {
-    body .section__title,
-    html .section__title {
-        width: 150px
-    }
-}
-
-@media screen and (max-width:768px) {
-    body .section__title,
-    html .section__title {
-        text-align: left;
-        width: auto
-    }
-}
 
 body .section__content,
 html .section__content {
@@ -270,20 +216,6 @@ html .section__content {
     max-width: 650px
 }
 
-@media screen and (max-width:768px) {
-    body .section__content,
-    html .section__content {
-        padding-top: 30px;
-        padding-left: 50px
-    }
-}
-
-@media screen and (max-width:480px) {
-    body .section__content,
-    html .section__content {
-        padding-left: 30px
-    }
-}
 
 body .section__content p,
 html .section__content p {
@@ -393,22 +325,6 @@ html #top-button {
     display: none
 }
 
-@media screen and (max-width:1024px) {
-    body #top-button,
-    html #top-button {
-        bottom: 20px;
-        right: 7px;
-        width: 35px
-    }
-}
-
-@media screen and (max-width:480px) {
-    body #top-button,
-    html #top-button {
-        bottom: 15px;
-        right: 3px
-    }
-}
 
 body #top-button:focus,
 body #top-button:hover,
@@ -452,13 +368,6 @@ html #top-button img {
     position: absolute;
     top: 20px;
     right: 30px
-}
-
-@media screen and (max-width:480px) {
-    .switch-wrapper {
-        top: 10px;
-        right: 20px
-    }
 }
 
 .pixel-switch-wrapper .moon,
@@ -538,23 +447,6 @@ html #top-button img {
     margin: 0 auto
 }
 
-@media screen and (max-width:630px) {
-    .intro {
-        padding: 120px 70px
-    }
-}
-
-@media screen and (max-width:550px) {
-    .intro {
-        padding: 120px 50px
-    }
-}
-
-@media screen and (max-width:480px) {
-    .intro {
-        padding: 70px 50px
-    }
-}
 
 .intro__hello,
 .intro__tagline {
@@ -566,85 +458,6 @@ html #top-button img {
     font-size: 4rem
 }
 
-@media screen and (max-width:1024px) {
-    .intro__hello,
-    .intro__tagline {
-        font-size: 2.25rem
-    }
-
-    .night .intro__hello,
-    .night .intro__tagline {
-        font-size: 3.5rem
-    }
-}
-
-@media screen and (max-width:768px) {
-    .intro__hello,
-    .intro__tagline {
-        font-size: 2rem
-    }
-
-    .night .intro__hello,
-    .night .intro__tagline {
-        font-size: 3rem
-    }
-}
-
-@media screen and (max-width:550px) {
-    .intro__hello,
-    .intro__tagline {
-        font-size: 1.75rem
-    }
-}
-
-@media screen and (max-width:360px) {
-    .intro__hello,
-    .intro__tagline {
-        font-size: 1.5rem
-    }
-}
-
-@media screen and (max-width:330px) {
-    .intro__hello,
-    .intro__tagline {
-        font-size: 1.4rem
-    }
-
-    .night .intro__hello,
-    .night .intro__tagline {
-        font-size: 2.5rem
-    }
-}
-
-.intro__hello .emoji,
-.intro__tagline .emoji {
-    width: 40px;
-    height: 40px
-}
-
-@media screen and (max-width:1024px) {
-    .intro__hello .emoji,
-    .intro__tagline .emoji {
-        width: 35px;
-        height: 35px
-    }
-}
-
-@media screen and (max-width:768px) {
-    .intro__hello .emoji,
-    .intro__tagline .emoji {
-        width: 30px;
-        height: 30px
-    }
-}
-
-@media screen and (max-width:360px) {
-    .intro__hello .emoji,
-    .intro__tagline .emoji {
-        width: 25px;
-        height: 25px
-    }
-}
 
 .intro__hello {
     font-weight: 300
@@ -668,68 +481,6 @@ html #top-button img {
     animation-name: wave
 }
 
-@-webkit-keyframes wave {
-    from {
-        -webkit-transform: none;
-        transform: none
-    }
-    15% {
-        -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
-        transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg)
-    }
-    30% {
-        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg)
-    }
-    45% {
-        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
-        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg)
-    }
-    60% {
-        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg)
-    }
-    75% {
-        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
-        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg)
-    }
-    to {
-        -webkit-transform: none;
-        transform: none
-    }
-}
-
-@keyframes wave {
-    from {
-        -webkit-transform: none;
-        transform: none
-    }
-    15% {
-        -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
-        transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg)
-    }
-    30% {
-        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg)
-    }
-    45% {
-        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
-        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg)
-    }
-    60% {
-        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg)
-    }
-    75% {
-        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
-        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg)
-    }
-    to {
-        -webkit-transform: none;
-        transform: none
-    }
-}
-
 .intro__wrap {
     max-width: 1000px;
     position: relative;
@@ -741,13 +492,6 @@ html #top-button img {
     
 .intro__wrap .intro__tagline {
     line-height: 50px;
-}
-
-@media screen and (max-width:550px) {
-    .intro__wrap .circle-wrapper {
-        float: none;
-        display: none;
-    }
 }
 
 .intro__tagline {
@@ -762,12 +506,6 @@ html #top-button img {
 
 .intro__tagline .technologist {
     background-image: url(../img/emojis/technologist.png)
-}
-
-@media screen and (max-width:900px) {
-    .intro__tagline {
-        max-width: 500px;
-    }
 }
 
 .intro__icon {    
@@ -789,16 +527,6 @@ html #top-button img {
     font-weight: 400
 }
 
-@media screen and (max-width:550px) {
-    .intro__contact {
-        font-size: 1rem
-    }
-
-    .night .intro__contact {
-        font-size: 1.75rem;
-        font-weight: 400
-    }
-}
 
 .intro__contact .emoji.pointer {
     background-image: url(../img/emojis/pointright.png);
@@ -806,13 +534,6 @@ html #top-button img {
     height: 30px;
     margin: 0 5px;
     vertical-align: text-bottom
-}
-
-@media screen and (max-width:550px) {
-    .intro__contact .emoji.pointer {
-        width: 25px;
-        height: 25px
-    }
 }
 
 .intro__contact .highlight-link {
@@ -840,21 +561,6 @@ html #top-button img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between
-}
-
-@media screen and (max-width:630px) {
-    .skills .skillz {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap
-    }
-}
-
-@media screen and (max-width:630px) {
-    .skills .skillz__category {
-        width: 47%;
-        margin-right: 5px;
-        margin-bottom: 25px
-    }
 }
 
 .skills .skillz__category__label {
@@ -896,11 +602,6 @@ html #top-button img {
     justify-content: space-between
 }
 
-@media screen and (max-width:480px) {
-    .experience .job .time-place {
-        display: block
-    }
-}
 
 .experience .job__company {
     font-weight: 700
@@ -911,11 +612,6 @@ html #top-button img {
     font-family: Inconsolata, monospace
 }
 
-@media screen and (max-width:480px) {
-    .experience .job__time {
-        font-size: .8rem
-    }
-}
 
 .experience .arrow-link {
     font-size: 1.25rem
@@ -964,37 +660,6 @@ html #top-button img {
     border-radius: 30px
 }
 
-@-webkit-keyframes pulsate {
-    0% {
-        -webkit-transform: scale(.1, .1);
-        transform: scale(.1, .1);
-        opacity: 0
-    }
-    50% {
-        opacity: 1
-    }
-    100% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 0
-    }
-}
-
-@keyframes pulsate {
-    0% {
-        -webkit-transform: scale(.1, .1);
-        transform: scale(.1, .1);
-        opacity: 0
-    }
-    50% {
-        opacity: 1
-    }
-    100% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 0
-    }
-}
 
 .status__light__led {
     position: absolute;
@@ -1019,26 +684,6 @@ html #top-button img {
     margin-bottom: 100px;
     margin-left: -5%;
     width: 125%
-}
-
-@media screen and (max-width:1280px) {
-    .featured-projects .project {
-        width: 115%
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .featured-projects .project {
-        width: 105%
-    }
-}
-
-@media screen and (max-width:768px) {
-    .featured-projects .project {
-        width: 100%;
-        display: block;
-        margin-bottom: 70px
-    }
 }
 
 .featured-projects .project.screentime {
@@ -1087,14 +732,6 @@ html #top-button img {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-left: 30px
-}
-
-@media screen and (max-width:768px) {
-    .featured-projects .project__caption {
-        width: 100%;
-        margin-top: 25px;
-        margin-left: 0
-    }
 }
 
 .featured-projects .project__name {
@@ -1159,49 +796,9 @@ html #top-button img {
     align-items: center
 }
 
-@media screen and (max-width:1024px) {
-    .footer {
-        padding: 50px
-    }
-}
-
-@media screen and (max-width:630px) {
-    .footer {
-        display: block
-    }
-}
-
-@media screen and (max-width:480px) {
-    .footer {
-        padding: 50px 30px
-    }
-}
-
 .footer__copyright {
     font-weight: 700;
     width: 200px
-}
-
-@media screen and (max-width:630px) {
-    .footer__copyright {
-        width: auto;
-        text-align: center;
-        margin-bottom: 25px
-    }
-}
-
-@media screen and (max-width:630px) {
-    .footer__copyright .bottom,
-    .footer__copyright .top {
-        display: inline-block
-    }
-}
-
-@media screen and (max-width:480px) {
-    .footer__copyright .bottom,
-    .footer__copyright .top {
-        display: block
-    }
 }
 
 .footer__copyright .emoji {
@@ -1209,17 +806,6 @@ html #top-button img {
     height: 20px;
     margin: 0 3px;
     vertical-align: text-bottom
-}
-
-@media screen and (max-width:630px) {
-    .footer__links {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center
-    }
 }
 
 .footer__links a {
@@ -1230,12 +816,6 @@ html #top-button img {
     font-weight: 700;
     margin: 0 15px;
     outline: 0
-}
-
-@media screen and (max-width:1024px) {
-    .footer__links a {
-        margin: 0 10px
-    }
 }
 
 .footer__links a:after {
@@ -1255,12 +835,6 @@ html #top-button img {
     transform: translateY(-5px)
 }
 
-@media screen and (max-width:850px) {
-    .footer__links a:after {
-        display: none
-    }
-}
-
 .footer__links a:focus:after,
 .footer__links a:hover:after {
     height: 2px;
@@ -1276,12 +850,6 @@ html #top-button img {
     letter-spacing: 1px
 }
 
-@media screen and (max-width:850px) {
-    .footer__links a .text {
-        display: none
-    }
-}
-
 .footer__links img {
     display: none;
     width: 22px
@@ -1290,12 +858,6 @@ html #top-button img {
 .footer__links svg {
     display: none;
     width: 22px
-}
-
-@media screen and (max-width:850px) {
-    .footer__links svg {
-        display: inline-block
-    }
 }
 
 .not-found {
@@ -1327,14 +889,6 @@ html #top-button img {
     font-size: 1.5rem
 }
 
-@media screen and (max-width:480px) {
-    .not-found .name {
-        top: 20px;
-        left: 25px;
-        font-size: 1.25rem
-    }
-}
-
 .not-found h1 {
     font-size: 4rem;
     margin: 10px 0
@@ -1342,18 +896,6 @@ html #top-button img {
 
 .not-found h2 {
     font-size: 1.5rem
-}
-
-@media screen and (max-width:480px) {
-    .not-found h2 {
-        font-size: 1.25rem
-    }
-}
-
-@media screen and (max-width:360px) {
-    .not-found h2 {
-        font-size: 1.1rem
-    }
 }
 
 .not-found a {
