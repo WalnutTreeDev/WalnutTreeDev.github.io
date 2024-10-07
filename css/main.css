@@ -465,7 +465,7 @@ html #top-button img {
         display: none;
     }
     body .section, html .section {
-        padding: 100px 0px;
+        padding: 100px 20px;
     }
 
     .featured-projects .project {
@@ -475,5 +475,9 @@ html #top-button img {
     .featured-projects .project__caption {
         margin-left: 0;
         width: auto;
+    }
+
+    .intro {
+        height: auto;
     }
 }
