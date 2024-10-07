@@ -467,4 +467,13 @@ html #top-button img {
     body .section, html .section {
         padding: 100px 0px;
     }
+
+    .featured-projects .project {
+        flex-direction: column;
+    }
+
+    .featured-projects .project__caption {
+        margin-left: 0;
+        width: auto;
+    }
 }
