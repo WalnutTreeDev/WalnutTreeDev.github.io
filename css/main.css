@@ -483,11 +483,16 @@ html #top-button img {
         width: 100%;
         text-align: left;
         font-size: 2.5rem;
+        margin-bottom: 20px;
     }
 
     body .section__content, html .section__content {
         max-width: unset;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .section__background__portrait {
+        display: hidden;
     }
 
     .featured-projects .project {
