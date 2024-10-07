@@ -492,7 +492,7 @@ html #top-button img {
     }
 
     .section__background__portrait {
-        display: hidden;
+        display: none;
     }
 
     .featured-projects .project {
