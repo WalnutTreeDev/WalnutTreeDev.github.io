@@ -467,16 +467,27 @@ html #top-button img {
 
     .intro__contact {
         font-size: 2rem;
+
+        .highlight-link {
+            font-size: 2rem;
+        }
     }
 
     body .section, html .section {
-        padding: 100px 200px;
+        padding: 100px 100px;
         display: flex;
         flex-direction: column;
     }
 
+    body .section__title, html .section__title {
+        width: 100%;
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
     body .section__content, html .section__content {
         max-width: unset;
+        font-size: 2rem;
     }
 
     .featured-projects .project {
