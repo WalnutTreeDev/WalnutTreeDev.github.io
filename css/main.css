@@ -492,6 +492,8 @@ html #top-button img {
 
     .featured-projects .project {
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
     }
 
     .featured-projects .project__caption {
