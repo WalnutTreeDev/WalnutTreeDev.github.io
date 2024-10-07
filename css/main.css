@@ -464,8 +464,19 @@ html #top-button img {
     .circle-wrapper {
         display: none;
     }
+
+    .intro__contact {
+        font-size: 2rem;
+    }
+
     body .section, html .section {
-        padding: 100px 20px;
+        padding: 100px 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .section__content, html .section__content {
+        max-width: unset;
     }
 
     .featured-projects .project {
@@ -479,5 +490,9 @@ html #top-button img {
 
     .intro {
         height: auto;
+    }
+
+    .featured-projects .project__name {
+        margin-top: 10px;
     }
 }
